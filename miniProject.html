@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Booking Website</title>
+</head>
+<style>
+    /* p{
+        margin: 0;
+        padding: 0;
+    }
+    h3{
+        margin: 0;
+        padding: .5rem;
+
+    }
+    body{
+        text-align: center;
+    } */
+
+    table,
+    tr,
+    th,
+    td {
+
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    ul li a ,img{
+        width: 30%;
+    }
+</style>
+
+<body>
+
+    <nav>
+        <ul>
+            <li> <a href="">HOME</a></li>
+            <li> <a href="About.html">ABOUT US </a></li>
+            <li> <a href="Faq.html">FAQ </a></li>
+            <li> <a href="Contact.html">CONTACT US </a></li>
+
+
+        </ul>
+    </nav>
+    <h1>Welcome To Our FLight Booking website</h1>
+
+    <!-- <h2>Flight Booking Website</h2> -->
+    <h2>Start booking your flight</h2>
+
+    <p>Booking Flight will be easy with our website with just simple clicks </p>
+    <div class="serach-fligh">
+        <h2>Search For Flight</h2>
+        <label for="serach"><strong>From</strong></label>
+        <input type="text" id="search">
+        <label for="serach"><strong>To</strong></label>
+        <input type="text">
+        <button type="submit">search</button>
+        <br>
+        <br>
+        <img style="width: 100%;" src="assets/images/flight.jpg" alt=" This is a plane image">
+        <br><br>
+
+ <!-- Flight Table -->
+ <table >
+    <caption>FLights Time Table</caption>
+    <thead>
+        <tr>
+            <th>Flight No</th>
+            <th>Origin</th>
+            <th>Scheduled</th>
+            <th>Status</th>
+            <th>Estimated</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>WY 235 </td>
+            <td>Seeb Intl</td>
+            <td>07:10</td>
+
+            <td>ONTIME</td>
+            <td>07:10 <br>30/08/23</td>
+        </tr>
+        <tr>
+            <td>SV 754 </td>
+            <td>King Abdulaziz</td>
+            <td>11:10</td>
+
+            <td>ONTIME</td>
+            <td>11:10 <br>30/08/23</td>
+        </tr>
+        <tr>
+            <td>QR 8650 </td>
+            <td>Doha Intl</td>
+            <td>06:25</td>
+
+            <td>ONTIME</td>
+            <td>06:25 <br>30/08/23</td>
+        </tr>
+
+    </tbody>
+
+
+</table>
+
+</div>
+        <!-- !!!!!!!!! booking starts here -->
+        <div class="flightsection">
+            <h2>Book A Flight</h2>
+            <!-- Flight Booking Form  -->
+            <form action="">
+            <label for="arrival"><Strong>Arrival</Strong></label>
+            <select name="dropdown" id="">
+                <option value="India">India</option>
+                <option value="Qatar">Qatar</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Saudi Arabia">Saudi Arabia</option>
+            </select>
+            <label for="arrival"><Strong>Departure</Strong></label>
+            <select name="dropdown" id="">
+                <option value="India">India</option>
+                <option value="Qatar">Qatar</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Saudi Arabia">Saudi Arabia</option>
+            </select>
+            <br><br>
+            <label for="">Departure Date</label>
+            <input type="date" name="DepartureDate">
+            <br><br>
+            <label for="date">Return Date</label>
+            <input type="date" name="ReturnDate" id="date">
+           <br><br>
+            <label for="psnumber">No Of Passengers</label>
+            <input type="number" name="psnumber" id="psnumber">
+            <br><br>
+           <label for="Prices">Prices</label>
+           <input type="range" value="5000" min="2000" max="75000" id="prices" name=" range">
+          <br><br>
+          <button>submit</button>
+
+    </form>
+</div>
+        <br>
+
+
+       
+
+<!-- Popular Destination -->
+
+        <div class="Popular-destination">
+            <div class="destinations">
+
+                <h2>Popular Destination To Explore</h2>
+                <ul>
+                    <li><a href="">Hyderabad</a></li>
+                    <img src="assets/images/hyderabad.jpg" alt="">
+                    <li><a href="">Qatar</a></li>
+                    <img src="assets/images/qatar.webp" alt="">
+                    <li><a href="">Delhi</a></li>
+                    <img src="assets/images/Delhi.jpg" alt="">
+                    <li><a href="">USA </a></li>
+                    <img src="assets/images/Usa.webp" alt="">
+                    <li><a href="">Canada</a></li>
+                    <img src="assets/images/canada.jpg" alt="">
+                    <li><a href="">Saudi</a></li>
+                    <img src="assets/images/saudi.webp" alt="">
+
+                </ul>
+            </div>
+        </div>
+
+
+        
+
+        <section class="reviews">
+            <h4>Flight reviews</h4>
+            <p>
+                <span> <strong>John</strong></span>
+                &#9733;
+                &#9733;
+                &#9733;
+                &#9733;
+                &#9734;
+
+            </p>
+            <p>Pretty awesome flight</p>
+            <p>
+                <span> <strong>Jack</strong></span>
+
+                &#9733;
+                &#9733;
+                &#9733;
+                &#9733;
+                &#9734;
+
+            </p>
+            <p>Pretty awesome flight</p>
+            <p>
+                <span> <strong>Jonny</strong></span>
+
+                &#9733;
+                &#9733;
+                &#9733;
+                &#9733;
+                &#9734;
+
+            </p>
+            <p>Pretty awesome flight</p>
+            <br><br>
+
+            <form action="">
+
+                <caption>Please Rate Your Flight experience Below
+                </caption> <br><br>
+                <label for="name">Username</label>
+                <input type="text" placeholder="Username"> <br><br>
+                <label for="flightNumber">Flight Number</label>
+                <input type="text">
+                <br><br>
+
+                <label for="review">Write a review</label>
+                <input id="review" type="text" placeholder="Review"> <br>
+                <br>
+                <label for="rating">Ratings (1-5)</label>
+                <input type="number"><br><br>
+
+                <button>submit</button>
+            </form>
+
+
+            <br>
+            <br>
+        </section>
+
+
+
+
+
+
+    
+<footer>
+    <div class="footer">
+    <p>	&#169; Technology used :  HTML Designed by travels.com </p>
+<li><a href="Faq.html">FAQ</a></li>
+<li><a href="Contact.html">CONTACT US </a></li>
+<li><a href="">REVIEWS</a></li>
+
+</div>
+</footer>
+
+</body>
+
+</html>
