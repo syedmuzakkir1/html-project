@@ -1,0 +1,186 @@
+html {
+    /* scroll:smooth; */
+    scroll-behavior: smooth;
+
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+/* for all images width  */
+img {
+    width: 400px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+  
+}
+
+
+
+
+
+
+
+/* navigation menu styles */
+
+header{
+    background-color:  rgb(144, 179, 108);
+}
+
+.navigation_container {
+
+    display: flex;
+    align-items: center;
+
+
+
+
+}
+
+.navbar {
+
+
+    margin-left: 20px;
+
+    font-size: 15px;
+    width: 100%;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navigation_menu {
+    /* margin-left: 10px;
+    padding: 20px; */
+    display: flex;
+    /* margin: 20px;
+    padding: 20px; */
+    width: 100%;
+    /* flex-direction: column-reverse; */
+}
+
+a {
+
+    background-color: aqua;
+
+    padding: 15px;
+    margin-left: 5px;
+    color: rgb(149, 8, 8);
+    border-radius: 15px;
+
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+
+h2 {
+    margin: 0;
+    padding: 12px;
+    color: black;
+    text-transform: uppercase;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+
+
+/* logo styles */
+.logo {
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+/* logo width set */
+.logo_img {
+    width: 100px;
+}
+
+
+
+.chicken_biryani_img {
+
+    width: 500px;
+}
+
+.Recipe11 {
+
+    display: flex;
+}
+ /* Recipe11 Ingredients styles   */
+.Ingredients {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+}
+ /* Heading styles */
+.heading_first {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 2;
+}
+
+/* styles for all sections  */
+section {
+
+    line-height: 1.5;
+}
+ /* style for all paragraph */
+p {
+    line-height: 1.5;
+    font-weight: 500;
+
+}
+
+/* styles for all unordered lists */
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.Biryani_Table {
+    background-color: rgba(181, 230, 20, 0.7);
+    border: 2px solid red;
+    padding: 35px;
+    line-height: 2;
+
+}
+table{
+    margin-left: 20px;
+}
+/* Recip1 styles ends here  */
+
+/* Recipe2 styles start here  */
+
+.Recipe2 {
+    background-color: rgb(223, 242, 243);
+    display: flex;
+    padding: 0 20px;
+    width: 100%;
+}
+
+/* Recipe3 Styles starts here  */
+.Recipe3 {
+    background-color: rgb(178, 201, 202);
+}
+
+.Recipe3 h2 {
+    color: blue;
+    font-weight: bold;
+
+}
+
+
