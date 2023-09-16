@@ -5,6 +5,7 @@ html {
     margin: 0;
     padding: 0;
     text-align: center;
+    width: 100%;
 }
 
 
@@ -19,17 +20,22 @@ img {
 body {
     margin: 0;
     padding: 0;
+    width: 100%;
   
 }
 
 /* input styling */
  input{
     border-radius: 10px;
-    border: none;
-    margin: 5px;
+   
+    text-transform: uppercase;
     padding: 15px;
     
     
+ }
+ .class{
+    padding: 20px;
+    /* display: flex; */
  }
 #Search_button{
     border: none;
@@ -37,9 +43,9 @@ body {
     cursor: pointer; 
     background-color: rgb(190, 213, 41);
     color: blue;
-    text-transform: uppercase;
+   
     padding: 15px;
-    margin-right: 10px;
+    /* margin-right: 10px; */
     
 }
 
@@ -56,7 +62,7 @@ header{
     display: flex;
     align-items: center;
 
-
+   width: 100%;
 
 
 }
@@ -83,7 +89,7 @@ header{
     /* flex-direction: column-reverse; */
 }
 
-a {
+nav a{
 
     background-color: aqua;
 
@@ -96,6 +102,10 @@ a {
     margin-left: 30px;
 }
 
+a{
+    /* text-decoration: none; */
+    
+}
 
 h2 {
     margin: 0;
@@ -115,6 +125,7 @@ h2 {
     text-align: center;
     align-items: center;
 }
+
 /* logo width set */
 .logo_img {
     width: 100px;
@@ -193,7 +204,7 @@ table{
     background-color: rgb(223, 242, 243);
     display: flex;
     
-    width: 100%;
+    /* width: 100%; */
 }
 
 /* Recipe3 Styles starts here  */
