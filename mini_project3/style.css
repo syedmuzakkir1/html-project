@@ -13,6 +13,7 @@ img {
     width: 400px;
     margin-bottom: 10px;
     border-radius: 30px;
+    border: 3px solid black;
 }
 
 body {
@@ -21,9 +22,26 @@ body {
   
 }
 
-
-
-
+/* input styling */
+ input{
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+    padding: 15px;
+    
+    
+ }
+#Search_button{
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
+    background-color: rgb(190, 213, 41);
+    color: blue;
+    text-transform: uppercase;
+    padding: 15px;
+    margin-right: 10px;
+    
+}
 
 
 
@@ -109,6 +127,12 @@ h2 {
     width: 500px;
 }
 
+.for_onions{
+    width: 100%;
+}
+.for_biryani{
+    width: 100%;
+}
 .Recipe11 {
 
     display: flex;
@@ -168,7 +192,7 @@ table{
 .Recipe2 {
     background-color: rgb(223, 242, 243);
     display: flex;
-    padding: 0 20px;
+    
     width: 100%;
 }
 
